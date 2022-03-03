@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameActivity"
+    android:id="@+id/activity_game_four">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayoutWithButtons"
+            android:layout_width="263dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_margin="10dp"
+                android:background="@android:color/black"
+                android:onClick="buttonPressed"
+                android:text="1" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_margin="10dp"
+                android:layout_toRightOf="@id/button1"
+                android:background="@android:color/black"
+                android:onClick="buttonPressed"
+                android:text="2" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_margin="10dp"
+                android:layout_toRightOf="@id/button2"
+                android:background="@android:color/black"
+                android:onClick="buttonPressed"
+                android:text="3" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_margin="10dp"
+                android:layout_toRightOf="@id/button3"
+                android:background="@android:color/black"
+                android:onClick="buttonPressed"
+                android:text="4" />
+
+            <!--Second Row -->
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_below="@id/button1"
+                android:layout_margin="10dp"
+                android:background="@android:color/black"
+                android:onClick="buttonPressed"
+                android:text="6" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_below="@+id/button1"
+                android:layout_margin="10dp"
+                android:layout_toRightOf="@id/button1"
+                android:background="@android:color/black"
+                android:onClick="buttonPressed"
+                android:text="7" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_below="@+id/button1"
+                android:layout_margin="10dp"
+                android:layout_toRightOf="@id/button2"
+                android:background="@android:color/black"
+                android:onClick="buttonPressed"
+                android:text="8" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_below="@+id/button1"
+                android:layout_margin="10dp"
+                android:layout_toRightOf="@id/button3"
+                android:background="@android:color/black"
+                android:onClick="buttonPressed"
+                android:text="9" />
+
+            <!--Third Row -->
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_below="@id/button6"
+                android:layout_margin="10dp"
+                android:background="@android:color/black"
+                android:onClick="buttonPressed"
+                android:text="11" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_below="@+id/button6"
+                android:layout_margin="10dp"
+                android:layout_toRightOf="@id/button1"
+                android:background="@android:color/black"
+                android:onClick="buttonPressed"
+                android:text="12" />
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_below="@+id/button6"
+                android:layout_margin="10dp"
+                android:layout_toRightOf="@id/button2"
+                android:background="@android:color/black"
+                android:onClick="buttonPressed"
+                android:text="13" />
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_below="@+id/button6"
+                android:layout_margin="10dp"
+                android:layout_toRightOf="@id/button3"
+                android:background="@android:color/black"
+                android:onClick="buttonPressed"
+                android:text="14" />
+
+            <!--Fourth Row -->
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_below="@id/button11"
+                android:layout_margin="10dp"
+                android:background="@android:color/black"
+                android:onClick="buttonPressed"
+                android:text="16" />
+
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_below="@+id/button11"
+                android:layout_margin="10dp"
+                android:layout_toRightOf="@id/button1"
+                android:background="@android:color/black"
+                android:onClick="buttonPressed"
+                android:text="17" />
+
+            <Button
+                android:id="@+id/button15"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_below="@+id/button11"
+                android:layout_margin="10dp"
+                android:layout_toRightOf="@id/button2"
+                android:background="@android:color/black"
+                android:onClick="buttonPressed"
+                android:text="18" />
+
+            <Button
+                android:id="@+id/button16"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_below="@+id/button11"
+                android:layout_margin="10dp"
+                android:layout_toRightOf="@id/button3"
+                android:background="@android:color/black"
+                android:onClick="buttonPressed"
+                android:text="19" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/gamescoretextview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/relativeLayoutWithButtons"
+            android:layout_centerHorizontal="true"
+            android:textSize="25dp"
+            android:text="Score: " />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
