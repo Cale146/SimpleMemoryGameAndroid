@@ -34,33 +34,33 @@
                 android:layout_width="80dp"
                 android:layout_height="50dp"
                 android:layout_below="@id/textView"
-                android:background="@android:color/holo_green_light"
-                android:text="Easy"
                 android:layout_margin="10dp"
-                android:onClick="startEasyActivity"/>
+                android:background="@android:color/holo_green_dark"
+                android:onClick="startEasyActivity"
+                android:text="Easy" />
 
             <Button
                 android:id="@+id/mediumButton"
                 android:layout_width="80dp"
                 android:layout_height="50dp"
                 android:layout_below="@id/textView"
+                android:layout_margin="10dp"
                 android:layout_toRightOf="@id/easyButton"
                 android:background="@android:color/holo_orange_light"
-                android:text="Medium"
-                android:layout_margin="10dp"
-                android:onClick="startMediumActivity"/>
+                android:onClick="startMediumActivity"
+                android:text="Medium" />
 
             <Button
                 android:id="@+id/hardButton"
                 android:layout_width="80dp"
                 android:layout_height="50dp"
                 android:layout_below="@id/textView"
+                android:layout_margin="10dp"
                 android:layout_toRightOf="@id/mediumButton"
                 android:background="@android:color/holo_red_light"
-                android:text="Hard"
-                android:layout_margin="10dp"
+                android:onClick="startHardActivity"
 
-                android:onClick="startHardActivity"/>
+                android:text="Hard" />
 
         </LinearLayout>
 
